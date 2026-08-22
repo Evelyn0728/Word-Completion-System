@@ -3,7 +3,6 @@
     FACULTAD DE ESTUDIOS SUPERIORES -ARAGON-
 
     Computadoras y programacion.
-    (c) Ramirez Aguilar Evelyn 323091367
 
     Quiso decir: Programa principal de la aplicacion de la distancia de Levenstein.
 
@@ -175,11 +174,11 @@ void ListaCandidatas(
 }
 
 /* ------------------------------------------------------
-   FunciÛn ClonaPalabras 
+   Funci√≥n ClonaPalabras 
 ------------------------------------------------------ */
 void ClonaPalabras(char* szPalabraLeida, char szPalabrasSugeridas[][TAMTOKEN], int& iNumSugeridas)
 {
-    const char letras[] = "abcdefghijklmnÒopqrstuvwxyz·ÈÌÛ˙";
+    const char letras[] = "abcdefghijklmn√±opqrstuvwxyz√°√©√≠√≥√∫";
     const int numLetras = 32;
     int longi = (int)strlen(szPalabraLeida);
 
